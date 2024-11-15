@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 30%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnInterface {
+    width: 20%;
+    margin: 8px;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+}
+.btnInterface:hover {
+    background-color: #555;
+}
+
+/* TRABALHANDO COM O FOOTER */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5em;
+    padding-top: 1em;
+    border-top: 1px solid black;
+}
+
+.bi {
+    margin: 2em;
+    cursor: pointer;
+}
+
+.bi {
+    border: none;
+    padding: 2em;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+}
+.bi:hover {
+    background-color: #313131;
+}
